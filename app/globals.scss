@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  direction: rtl;
+  @apply min-h-screen;
+}
+
+.inputbox {
+  @apply border rounded-md p-3 w-full flex items-center h-[50px] text-sm;
+
+  &:focus {
+    @apply outline-none;
+  }
+}
